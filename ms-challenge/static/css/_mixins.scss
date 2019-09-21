@@ -1,0 +1,17 @@
+@mixin font-main {
+    font-family: 'Open Sans', sans-serif;
+};
+@mixin font-sec {
+    font-family: 'Merriweather', serif;
+}
+
+@mixin color-main {
+    color:#4E4542;
+}
+@mixin color-sec {
+    color:#8D8583;
+}
+
+@mixin bg-color-main {
+    background-color: #5AA34C;
+}
