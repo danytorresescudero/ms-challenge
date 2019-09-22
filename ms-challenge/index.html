@@ -22,28 +22,201 @@
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/620cb06635.js"></script>
     </head>
-    <body>
-        <header>
-            <h1>
-                Hello World
-            </h1>
-            <h3>
-                prueba
-            </h3>
-            <h4>
-                mas pruebas
-            </h4>
-            <p>
-                parrafo
-            </p>
+    <body class="d-flex flex-column">
+        <header class="py-3">
+            <div class="container">
+                <div class="nav">
+                    <input type="checkbox" id="nav-check">
+                    <div class="nav-header">
+                        <div class="nav-title">
+                            <img src="static/image/logo.jpg" alt="" class="img-fluid img-logo">
+                        </div>
+                    </div>
+                    <div class="nav-btn">
+                        <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </label>
+                    </div>
+                    
+                    <div class="nav-links">
+                        <a href="#" target="_blank">Item 1</a>
+                        <a href="#" target="_blank">Item 2</a>
+                        <a href="#" target="_blank">Item 3</a>
+                        <a href="#" target="_blank">Item 4</a>
+                    </div>
+                </div>
+            </div>
         </header>
-        <section>
-
+        <section class="flex-grow-1">
+            <div class="container">
+                <div class="my-4">
+                    <h1 class="mayusc text-center">
+                        this is a challenge
+                    </h1>
+                </div>   
+                <div class="my-4">
+                    <h3 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, maxime? Laborum odit modi ducimus! Totam, culpa nihil numquam quis eaque alias ullam minima officia tempora enim quibusdam labore nobis obcaecati?
+                    </h3>
+                </div>
+                <div class="d-flex row">
+                    <div class="col col-md-4 my-3 d-flex">
+                        <div class="flex-grow-1 d-flex flex-column p-4 bg-white rounded shadow align-items-center cards">
+                            <div class="img-profile-cont rounded-circle my-1">
+                                <img src="static/image/profile.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="flex-grow-1 text-center">
+                                <h4 class="my-3">
+                                    Mariana Esteban
+                                </h4>
+                                <p class="my-3">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quaerat.
+                                </p>
+                            </div>    
+                            <a href="#" class="btn btn-primary rounded-pill mayusc trigger">
+                                view profile
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 my-3 d-flex">
+                        <div class="flex-grow-1 d-flex flex-column p-4 bg-white rounded shadow align-items-center cards">
+                            <div class="img-profile-cont rounded-circle my-1">
+                                <img src="static/image/profile.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="flex-grow-1 text-center">
+                                <h4 class="my-3">
+                                    Mariana Esteban
+                                </h4>
+                                <p class="my-3">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quaerat? Quibusdam fugiat suscipit dignissimos placeat et.
+                                </p>
+                            </div>    
+                            <a href="#" class="btn btn-primary rounded-pill mayusc">
+                                view profile
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 my-3 d-flex">
+                        <div class="flex-grow-1 d-flex flex-column p-4 bg-white rounded shadow align-items-center cards">
+                            <div class="img-profile-cont rounded-circle my-1">
+                                <img src="static/image/profile.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="flex-grow-1 text-center">
+                                <h4 class="my-3">
+                                    Mariana Esteban
+                                </h4>
+                                <p class="my-3">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quaerat? Quibusdam fugiat suscipit dignissimos placeat et, nihil soluta error rerum ipsum est labore velit optio exercitationem eaque officiis tenetur dolores?
+                                </p>
+                            </div>    
+                            <a href="#" class="btn btn-primary rounded-pill mayusc">
+                                view profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row ">
+                    <div class="col col-md-4 my-3 d-flex">
+                        <div class="flex-grow-1 d-flex flex-column p-4 bg-white rounded shadow-small align-items-center cards-fix">
+                            <div class="img-profile-cont image-float rounded-circle my-1">
+                                <img src="static/image/profile.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="flex-grow-1 text-center">
+                                <h4 class="my-3">
+                                    Mariana Esteban
+                                </h4>
+                                <p class="my-3">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quaerat.
+                                </p>
+                            </div>    
+                            <a href="#" class="btn btn-primary rounded-pill mayusc">
+                                view profile
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 my-3 d-flex">
+                        <div class="flex-grow-1 d-flex flex-column p-4 bg-white rounded shadow-small align-items-center cards-fix">
+                            <div class="img-profile-cont image-float rounded-circle my-1">
+                                <img src="static/image/profile.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="flex-grow-1 text-center">
+                                <h4 class="my-3">
+                                    Mariana Esteban
+                                </h4>
+                                <p class="my-3">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quaerat? Quibusdam fugiat suscipit dignissimos placeat et.
+                                </p>
+                            </div>    
+                            <a href="#" class="btn btn-primary rounded-pill mayusc">
+                                view profile
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-md-4 my-3 d-flex">
+                        <div class="flex-grow-1 d-flex flex-column p-4 bg-white rounded shadow-small align-items-center cards-fix">
+                            <div class="img-profile-cont image-float rounded-circle my-1">
+                                <img src="static/image/profile.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="flex-grow-1 text-center">
+                                <h4 class="my-3">
+                                    Mariana Esteban
+                                </h4>
+                                <p class="my-3">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quaerat? Quibusdam fugiat suscipit dignissimos placeat et, nihil soluta error rerum ipsum est labore velit optio exercitationem eaque officiis tenetur dolores?
+                                </p>
+                            </div>    
+                            <a href="#" class="btn btn-primary rounded-pill mayusc">
+                                view profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <footer>
-
+        <footer class=py-4>
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="#" class="p-2 redes-icon bg-white rounded-circle m-1">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="p-2 redes-icon bg-white rounded-circle m-1">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="p-2 redes-icon bg-white rounded-circle m-1">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="p-2 redes-icon bg-white rounded-circle m-1">
+                            <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
         </footer>
+        <!-- The Modal -->
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-button">×</span>
+                <div class="d-flex">
+                    <div class="img-cont">
+                        <img src="static/image/profile.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="flex flex-grow-1 p-4">
+                        <h4>
+                            Mariana Esteban
+                        </h4>
+                        <p class="my-2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aut, repellendus fugit fugiat nostrum excepturi earum adipisci. Amet, deserunt odio vitae a molestias aperiam dicta numquam, tempora, eveniet nobis rerum!
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </body>
     <!--JS-->
+    <script src="static/js/modal.js"></script>
 </html>
