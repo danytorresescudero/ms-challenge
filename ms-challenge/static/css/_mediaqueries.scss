@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
 	.col {
 		-ms-flex-preferred-size: 0;
 		flex-basis: 0;
@@ -31,16 +31,16 @@
 		.modal-content {
 			height: initial;
 			width: 80%;
-			max-width: 1200px;
+			max-width: 75rem;
 			max-height: 80%;
-			border-radius: 0.5rem;
+			border-radius: 0.5rem;;
 			display: flex;
 			flex-direction: column;
 			h4 {
-				font-size: 48px !important;
+				font-size: 3rem !important;
 			}
 			p {
-				font-size: 18px !important;
+				font-size: 1.125rem !important;
 			}
 		}
 		.info-cont {
@@ -67,24 +67,24 @@
 	}
 }
 
-@media (max-width:992px) {
+@media (max-width:62rem) {
 	.nav {
 		>.nav-btn {
 			display: inline-block;
 			position: absolute;
-			right: 0px;
-			top: 0px;
+			right: 0rem;
+			top: 0rem;
 			>label {
 				display: inline-block;
-				padding: 13px;
+				padding: 0.8125rem;
 				&:hover {
 					background-color: #ffffff;
 				}
 				>span {
 					display: block;
-					width: 20px;
-					height: 2px;
-					margin: 4px 0;
+					width: 1.25rem;
+					height: 0.125rem;
+					margin: 0.25rem 0;
 					@include bg-color-sec;
 				}
 			}
@@ -92,29 +92,29 @@
 		.nav-links {
 			position: absolute;
 			display: block;
-			width: calc(100% + 30px);
-			height: 0px;
+			width: calc(100% + 1.875rem);
+			height: 0rem;
 			overflow-y: hidden;
-			top: 50px;
-			left: -15px;
+			top: 3.125rem;
+			left: -0.9375rem;
 			@include transition;
 			>a {
 				display: block;
 				background-color: #fff;
-				padding: 15px 30px;
+				padding: 0.9375rem 1.875rem;
 				width: 100%;
 				&:last-child {
-					box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+					box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.10);
 				}
 			}
 		}
 	}
 	.nav>.nav-btn>label:hover,
 	.nav .nav>#nav-check:not(:checked)~.nav-links {
-		height: 0px;
+		height: 0rem;
 	}
 	.nav>#nav-check:checked~.nav-links {
-		height: calc(100vh - 50px);
+		height: calc(100vh - 3.125rem);
 		overflow-y: auto;
 	}
 }

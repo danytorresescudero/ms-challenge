@@ -58,23 +58,23 @@ table {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px; }
+  font-size: 1rem; }
 
 h1 {
-  font-size: 54px;
+  font-size: 3.375rem;
   font-weight: 600; }
 
 h3 {
-  font-size: 24px; }
+  font-size: 1.5rem; }
 
 h4 {
   font-family: 'Merriweather', serif;
-  font-size: 24px; }
+  font-size: 1.5rem; }
 
 p {
   font-family: 'Merriweather', serif;
   color: #8D8583;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300; }
 
 .bold {
@@ -109,10 +109,10 @@ body {
 
 /*=== Border-radius ===*/
 .rounded {
-  border-radius: 3px !important; }
+  border-radius: 0.1875rem !important; }
 
 .rounded-pill {
-  border-radius: 25px !important; }
+  border-radius: 1.5625rem !important; }
 
 .rounded-circle {
   border-radius: 50% !important; }
@@ -140,10 +140,10 @@ body {
 
 /*=== Shadow ===*/
 .shadow {
-  box-shadow: 0 5px 35px 0 rgba(115, 113, 108, 0.35); }
+  box-shadow: 0 0.3125rem 2.1875rem 0 rgba(115, 113, 108, 0.35); }
 
 .shadow-small {
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.2); }
 
 /*=== Buttons ===*/
 .btn {
@@ -157,9 +157,9 @@ body {
   -ms-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 1px solid transparent;
-  padding: 10px 40px;
-  font-size: 14px;
+  border: 0.0625rem solid transparent;
+  padding: 0.625rem 2.5rem;
+  font-size: 0.875rem;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
 
 .btn-block {
@@ -186,79 +186,79 @@ a {
   margin: 0; }
 
 .m-1 {
-  margin: 7px; }
+  margin: 0.4375rem; }
 
 .m-2 {
-  margin: 15px; }
+  margin: 0.9375rem; }
 
 .m-3 {
-  margin: 30px; }
+  margin: 1.875rem; }
 
 .m-4 {
-  margin: 60px; }
+  margin: 3.75rem; }
 
 .my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  margin-top: 0rem;
+  margin-bottom: 0rem; }
 
 .my-1 {
-  margin-top: 7px;
-  margin-bottom: 7px; }
+  margin-top: 0.4375rem;
+  margin-bottom: 0.4375rem; }
 
 .my-2 {
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem; }
 
 .my-3 {
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem; }
 
 .my-4 {
-  margin-top: 60px;
-  margin-bottom: 60px; }
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem; }
 
 /*=== Padding ===*/
 .p-0 {
   padding: 0; }
 
 .p-1 {
-  padding: 7px; }
+  padding: 0.4375rem; }
 
 .p-2 {
-  padding: 15px; }
+  padding: 0.9375rem; }
 
 .p-3 {
-  padding: 30px; }
+  padding: 1.875rem; }
 
 .p-4 {
-  padding: 60px; }
+  padding: 3.75rem; }
 
 .py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px; }
+  padding-top: 0rem;
+  padding-bottom: 0rem; }
 
 .py-1 {
-  padding-top: 7px;
-  padding-bottom: 7px; }
+  padding-top: 0.4375rem;
+  padding-bottom: 0.4375rem; }
 
 .py-2 {
-  padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem; }
 
 .py-3 {
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem; }
 
 .py-4 {
-  padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem; }
 
 /*=== Structure ===*/
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 22px;
-  padding-right: 22px;
+  max-width: 75rem;
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
   margin: auto; }
 
 .row {
@@ -266,8 +266,8 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -22px;
-  margin-left: -22px; }
+  margin-right: -1.375rem;
+  margin-left: -1.375rem; }
 
 .col {
   -ms-flex-preferred-size: inherit !important;
@@ -277,8 +277,8 @@ a {
   max-width: 100%;
   position: relative;
   width: 100% !important;
-  padding-right: 22px;
-  padding-left: 22px; }
+  padding-right: 1.375rem;
+  padding-left: 1.375rem; }
 
 /*=== Image ===*/
 .img-fluid {
@@ -305,45 +305,45 @@ a {
 
 /*=== Social ===*/
 .redes-icon {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center; }
 
 header {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
   background-color: #fff;
-  height: 80px;
+  height: 5rem;
   display: flex;
   align-items: center; }
   header .img-logo {
-    max-height: 24px; }
+    max-height: 1.5rem; }
 
 footer {
   background-color: #4E4542; }
 
 section {
-  padding: 10px;
-  padding-bottom: 40px;
-  margin-top: 80px; }
+  padding: 0.625rem;
+  padding-bottom: 2.5rem;
+  margin-top: 5rem; }
   section .img-profile-cont {
     overflow: hidden;
-    width: 125px;
-    height: 125px;
+    width: 7.8125rem;
+    height: 7.8125rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #777570; }
+    border: 0.125rem solid #777570; }
   section .cards-fix {
-    margin-top: 62px; }
+    margin-top: 3.875rem; }
     section .cards-fix .image-float {
-      margin-top: -93px; }
+      margin-top: -5.8125rem; }
   section .prueba {
     color: white; }
 
@@ -385,10 +385,10 @@ section {
       color: #73716C; }
   .modal .close-button {
     position: absolute;
-    right: 25px;
-    top: 20px;
-    width: 30px;
-    height: 30px;
+    right: 1.5625rem;
+    top: 1.25rem;
+    width: 1.875rem;
+    height: 1.875rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -403,7 +403,7 @@ section {
     align-items: center;
     align-content: center;
     object-fit: cover;
-    max-height: 400px;
+    max-height: 25rem;
     overflow: hidden; }
     .modal .img-cont:after {
       position: absolute;
@@ -431,17 +431,17 @@ body.fixed {
     display: inline; }
     .nav .nav-header .nav-title {
       display: inline-block;
-      font-size: 16px;
+      font-size: 1rem;
       color: #fff;
-      padding: 10px 0; }
+      padding: 0.625rem 0; }
   .nav .nav-btn {
     display: none; }
   .nav .nav-links {
     display: inline;
-    font-size: 16px; }
+    font-size: 1rem; }
     .nav .nav-links a {
       display: inline-block;
-      padding: 13px 16px;
+      padding: 0.8125rem 1rem;
       text-decoration: none;
       color: #4E4542; }
       .nav .nav-links a:hover {
@@ -450,7 +450,7 @@ body.fixed {
   .nav #nav-check {
     display: none; }
 
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .col {
     -ms-flex-preferred-size: 0;
     flex-basis: 0; }
@@ -475,15 +475,15 @@ body.fixed {
   .modal .modal-content {
     height: initial;
     width: 80%;
-    max-width: 1200px;
+    max-width: 75rem;
     max-height: 80%;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column; }
     .modal .modal-content h4 {
-      font-size: 48px !important; }
+      font-size: 3rem !important; }
     .modal .modal-content p {
-      font-size: 18px !important; }
+      font-size: 1.125rem !important; }
   .modal .info-cont {
     display: flex;
     flex-grow: 1;
@@ -503,31 +503,31 @@ body.fixed {
     right: 0;
     z-index: 3500; } }
 
-@media (max-width: 992px) {
+@media (max-width: 62rem) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
-    right: 0px;
-    top: 0px; }
+    right: 0rem;
+    top: 0rem; }
     .nav > .nav-btn > label {
       display: inline-block;
-      padding: 13px; }
+      padding: 0.8125rem; }
       .nav > .nav-btn > label:hover {
         background-color: #ffffff; }
       .nav > .nav-btn > label > span {
         display: block;
-        width: 20px;
-        height: 2px;
-        margin: 4px 0;
+        width: 1.25rem;
+        height: 0.125rem;
+        margin: 0.25rem 0;
         background-color: #73716C; }
   .nav .nav-links {
     position: absolute;
     display: block;
-    width: calc(100% + 30px);
-    height: 0px;
+    width: calc(100% + 1.875rem);
+    height: 0rem;
     overflow-y: hidden;
-    top: 50px;
-    left: -15px;
+    top: 3.125rem;
+    left: -0.9375rem;
     -webkit-transition: all 0.4s ease-in-out !important;
     -moz-transition: all 0.4s ease-in-out !important;
     -o-transition: all 0.4s ease-in-out !important;
@@ -535,13 +535,13 @@ body.fixed {
     .nav .nav-links > a {
       display: block;
       background-color: #fff;
-      padding: 15px 30px;
+      padding: 0.9375rem 1.875rem;
       width: 100%; }
       .nav .nav-links > a:last-child {
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); }
+        box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.1); }
   .nav > .nav-btn > label:hover,
   .nav .nav > #nav-check:not(:checked) ~ .nav-links {
-    height: 0px; }
+    height: 0rem; }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 3.125rem);
     overflow-y: auto; } }

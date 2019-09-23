@@ -8,9 +8,9 @@
 		display: inline;
 		.nav-title {
 			display: inline-block;
-			font-size: 16px;
+			font-size: 1rem;
 			color: #fff;
-			padding: 10px 0;
+			padding: 0.625rem 0;
 		}
 	}
 	.nav-btn {
@@ -18,10 +18,10 @@
 	}
 	.nav-links {
 		display: inline;
-		font-size: 16px;
+		font-size: 1rem;
 		a {
 			display: inline-block;
-			padding: 13px 16px;
+			padding: 0.8125rem 1rem;
 			text-decoration: none;
 			@include color-main;
 			&:hover {
