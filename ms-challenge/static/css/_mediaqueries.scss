@@ -103,6 +103,11 @@
 				background-color: #fff;
 				padding: 0.9375rem 1.875rem;
 				width: 100%;
+				&:hover {
+					background-color: #4E4542;
+					color: #ffffff;
+					opacity: 1;
+				}
 				&:last-child {
 					box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.10);
 				}

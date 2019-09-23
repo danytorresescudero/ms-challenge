@@ -100,10 +100,16 @@ body {
 	background-color: #5AA34C;
 	color: #ffffff;
 }
+.btn-primary:hover {
+    background-color: #447e36;
+}
 
 a {
 	@include color-main;
 	@include transition;
+	&:hover {
+		opacity: 0.8;
+	}
 }
 
 
