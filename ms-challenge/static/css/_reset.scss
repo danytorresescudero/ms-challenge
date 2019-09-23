@@ -4,46 +4,67 @@ kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
 acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend {
-    font-family: inherit;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    outline: 0;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    text-decoration: none;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
 }
+
 :focus {
-    outline: 0;
+	outline: 0;
 }
-ol, ul, li {
-    list-style: none;
+
+ol,
+ul,
+li {
+	list-style: none;
 }
+
+
 /*table {
     border-collapse: separate;
     border-spacing: 0;
 }*/
-caption, th, td {
-    font-weight: normal;
-    text-align: left;
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
 }
-blockquote:before, blockquote:after, q:before, q:after {
-    content: "";
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
 }
-blockquote, q {
-    quotes: "" "";
+
+blockquote,
+q {
+	quotes: "" "";
 }
-a:link, a:visited{
-    text-decoration: none;
+
+a:link,
+a:visited {
+	text-decoration: none;
 }
-a:hover, a:active{
-    text-decoration: none;
+
+a:hover,
+a:active {
+	text-decoration: none;
 }
+
 table {
-    width: 100%;
+	width: 100%;
 }
+
 .fa {
-    line-height: 0;
+	line-height: 0;
 }
 

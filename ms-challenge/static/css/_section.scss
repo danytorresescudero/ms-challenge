@@ -1,23 +1,23 @@
 section {
-    padding:10px;
-    padding-bottom: 40px;
-    margin-top: 80px;
-    .img-profile-cont {
-        overflow: hidden;
-        width: 125px;
-        height: 125px;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid #777570;
-    }
-    .cards-fix {
-        margin-top: 62px;  
-        .image-float {
-            margin-top: -93px;
-        }
-    }
-    .prueba {
-        color:white;
-    }
+	padding: 10px;
+	padding-bottom: 40px;
+	margin-top: 80px;
+	.img-profile-cont {
+		overflow: hidden;
+		width: 125px;
+		height: 125px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 2px solid #777570;
+	}
+	.cards-fix {
+		margin-top: 62px;
+		.image-float {
+			margin-top: -93px;
+		}
+	}
+	.prueba {
+		color: white;
+	}
 }

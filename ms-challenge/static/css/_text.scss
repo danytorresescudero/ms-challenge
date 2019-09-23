@@ -1,42 +1,48 @@
 body {
-    @include font-main;
-    font-size: 16px;
-} 
+	@include font-main;
+	font-size: 16px;
+}
+
 h1 {
-    font-size: 54px;
-    font-weight: 600;
+	font-size: 54px;
+	font-weight: 600;
 }
+
 h3 {
-    font-size: 24px;
+	font-size: 24px;
 }
+
 h4 {
-    @include font-sec;
-    font-size: 24px;
+	@include font-sec;
+	font-size: 24px;
 }
+
 p {
-    @include font-sec;
-    @include color-sec
-    font-size: 16px;
-    font-weight: 300;
+	@include font-sec;
+	@include color-sec font-size: 16px;
+	font-weight: 300;
 }
 
 .bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
 }
+
 .mayusc {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .text-white {
-    color:#ffffff;
+	color: #ffffff;
 }
+
 .text-darker {
-    color:#322D2B;
+	color: #322D2B;
 }
+
 .text-prueba {
-    color: white;
+	color: white;
 }
