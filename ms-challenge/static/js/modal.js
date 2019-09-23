@@ -1,17 +1,15 @@
-var modal = document.querySelector(".modal");
-var trigger = document.querySelector(".trigger");
-var closeButton = document.querySelector(".close-button");
-
-function toggleModal() {
-    modal.classList.toggle("show-modal");
+function showModal() {
+    document.getElementById("modal").classList.add('show-modal');
+    document.body.classList.add('fixed');    
 }
 
-function windowOnClick(event) {
-    if (event.target === modal) {
-        toggleModal();
+function hideModal() {
+    document.getElementById("modal").classList.remove('show-modal');
+    document.body.classList.remove('fixed');
+}
+
+window.onclick = function(event) {
+    if (event.target.id === "modal") {
+     hideModal()
     }
 }
-
-trigger.addEventListener("click", toggleModal);
-closeButton.addEventListener("click", toggleModal);
-window.addEventListener("click", windowOnClick);

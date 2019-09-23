@@ -1,0 +1,37 @@
+.nav {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-header {
+      display: inline;
+      .nav-title {
+        display: inline-block;
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 0;
+      }
+    }
+    .nav-btn {
+      display: none;
+    }
+    .nav-links {
+      display: inline;
+      float: right;
+      font-size: 16px;
+      a {
+        display: inline-block;
+        padding: 13px 16px;
+        text-decoration: none;
+        @include color-main;
+        &:hover {
+          background-color: #4E4542;
+          color: #ffffff;
+        }
+      }
+    }
+    #nav-check {
+      display: none;
+    }
+  }

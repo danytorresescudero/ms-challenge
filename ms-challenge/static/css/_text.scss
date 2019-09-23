@@ -1,8 +1,10 @@
 body {
     @include font-main;
+    font-size: 16px;
 } 
 h1 {
     font-size: 54px;
+    font-weight: 600;
 }
 h3 {
     font-size: 24px;
@@ -13,8 +15,13 @@ h4 {
 }
 p {
     @include font-sec;
+    @include color-sec
     font-size: 16px;
     font-weight: 300;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .text-center {
@@ -22,4 +29,8 @@ p {
 }
 .mayusc {
     text-transform: uppercase;
+}
+
+.text-white {
+    color:#ffffff;
 }

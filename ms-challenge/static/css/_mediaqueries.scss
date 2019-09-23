@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .col {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -7,5 +7,113 @@
         -ms-flex: 0 0 33%;
         flex: 0 0 33%;
         max-width: 33%;
+    }
+    .modal {
+        top:0;
+        visibility: hidden;
+        transform: scale(1.1);
+        transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s !important;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .show-modal {
+        visibility: visible;
+        transform: scale(1.0);
+        transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s !important;
+    }
+    .modal {
+        &.show-modal {
+            .close-button {
+                position: absolute !important;
+            }
+        }
+        .modal-content {
+            height: initial;
+            width: 80%;
+            max-width: 1200px;
+            max-height: 80%;
+            border-radius: 0.5rem;
+            display:flex;
+            flex-direction: column;
+            h4 {
+                font-size: 48px !important;
+            }
+            p {
+                font-size: 18px !important;
+            }
+        }
+        .info-cont {
+            display: flex;
+            flex-grow: 1;
+            max-height: 100%;
+        }
+        .img-cont {
+            max-height: initial;
+            min-width: 55%;
+        }
+        .background-image {
+            background-image: url(../image/background-modal.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 3500;
+        }
+    }
+}
+@media (max-width:992px) {
+    .nav {
+        > .nav-btn {
+            display: inline-block;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            > label {
+                display: inline-block;
+                padding: 13px;
+                &:hover {
+                    background-color: #ffffff;
+                }
+                > span {
+                    display: block;
+                    width: 20px;
+                    height: 2px;
+                    margin: 4px 0;
+                    @include bg-color-sec;
+                }
+            }
+        }
+        .nav-links {
+            position: absolute;
+            display: block;
+            width: calc(100% + 30px);
+            height: 0px;
+            overflow-y: hidden;
+            top: 50px;
+            left: -15px;
+            @include transition;
+            > a {
+                display: block;
+                background-color: #fff;
+                padding: 15px 30px;
+                width: 100%;
+                &:last-child {
+                    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+                }
+            }
+        }
+    }
+    .nav > .nav-btn > label:hover,.nav  
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
     }
 }
