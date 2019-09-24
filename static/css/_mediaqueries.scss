@@ -1,0 +1,125 @@
+@media (min-width: 62rem) {
+	.col {
+		-ms-flex-preferred-size: 0;
+		flex-basis: 0;
+	}
+	.col-md-4 {
+		-ms-flex: 0 0 33%;
+		flex: 0 0 33%;
+		max-width: 33%;
+	}
+	.modal {
+		top: 0;
+		visibility: hidden;
+		transform: scale(1.1);
+		transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.show-modal {
+		visibility: visible;
+		transform: scale(1.0);
+		transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s !important;
+	}
+	.modal {
+		&.show-modal {
+			.close-button {
+				position: absolute !important;
+			}
+		}
+		.modal-content {
+			height: initial;
+			width: 80%;
+			max-width: 75rem;
+			max-height: 80%;
+			border-radius: 0.5rem;;
+			display: flex;
+			flex-direction: column;
+			h4 {
+				font-size: 3rem !important;
+			}
+			p {
+				font-size: 1.125rem !important;
+			}
+		}
+		.info-cont {
+			display: flex;
+			flex-grow: 1;
+			max-height: 100%;
+		}
+		.img-cont {
+			max-height: initial;
+			min-width: 55%;
+		}
+		.background-image {
+			background-image: url(../image/background-modal.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: right;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 3500;
+		}
+	}
+}
+
+@media (max-width:62rem) {
+	.nav {
+		>.nav-btn {
+			display: inline-block;
+			position: absolute;
+			right: 0rem;
+			top: 0rem;
+			>label {
+				display: inline-block;
+				padding: 0.8125rem;
+				&:hover {
+					background-color: #ffffff;
+				}
+				>span {
+					display: block;
+					width: 1.25rem;
+					height: 0.125rem;
+					margin: 0.25rem 0;
+					@include bg-color-sec;
+				}
+			}
+		}
+		.nav-links {
+			position: absolute;
+			display: block;
+			width: calc(100% + 1.875rem);
+			height: 0rem;
+			overflow-y: hidden;
+			top: 3.125rem;
+			left: -0.9375rem;
+			@include transition;
+			>a {
+				display: block;
+				background-color: #fff;
+				padding: 0.9375rem 1.875rem;
+				width: 100%;
+				&:hover {
+					background-color: #4E4542;
+					color: #ffffff;
+					opacity: 1;
+				}
+				&:last-child {
+					box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.10);
+				}
+			}
+		}
+	}
+	.nav>.nav-btn>label:hover,
+	.nav .nav>#nav-check:not(:checked)~.nav-links {
+		height: 0rem;
+	}
+	.nav>#nav-check:checked~.nav-links {
+		height: calc(100vh - 3.125rem);
+		overflow-y: auto;
+	}
+}

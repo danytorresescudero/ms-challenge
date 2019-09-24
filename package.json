@@ -1,0 +1,30 @@
+{
+  "name": "ms-challenge",
+  "version": "1.0.0",
+  "description": "Challenge para Making Sense",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danytorresescudero/ms-challenge.git"
+  },
+  "keywords": [
+    "gruntJs"
+  ],
+  "author": "Dany Torres Escudero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danytorresescudero/ms-challenge/issues"
+  },
+  "homepage": "https://github.com/danytorresescudero/ms-challenge#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "2.1.0",
+    "node-sass": "^4.12.0"
+  }
+}

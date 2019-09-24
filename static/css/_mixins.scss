@@ -1,0 +1,30 @@
+@mixin font-main {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@mixin font-sec {
+	font-family: 'Merriweather', serif;
+}
+
+@mixin color-main {
+	color: #4E4542;
+}
+
+@mixin color-sec {
+	color: #8D8583;
+}
+
+@mixin bg-color-main {
+	background-color: #5AA34C;
+}
+
+@mixin bg-color-sec {
+	background-color: #73716C;
+}
+
+@mixin transition {
+	-webkit-transition: all 0.3s ease-in-out!important;
+	-moz-transition: all 0.3s ease-in-out!important;
+	-o-transition: all 0.3s ease-in-out!important;
+	transition: all 0.3s ease-in-out!important;
+}

@@ -1,0 +1,49 @@
+body {
+	@include font-main;
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 3.375rem;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	@include font-sec;
+	font-size: 1.5rem;
+}
+
+p {
+	@include font-sec;
+    @include color-sec;
+    font-size: 1rem;
+	font-weight: 300;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mayusc {
+	text-transform: uppercase;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.text-darker {
+	color: #322D2B;
+}
+
+.text-prueba {
+	color: white;
+}

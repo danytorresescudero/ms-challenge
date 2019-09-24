@@ -1,0 +1,36 @@
+.nav {
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.nav-header {
+		display: inline;
+		.nav-title {
+			display: inline-block;
+			font-size: 1rem;
+			color: #fff;
+			padding: 0.625rem 0;
+		}
+	}
+	.nav-btn {
+		display: none;
+	}
+	.nav-links {
+		display: inline;
+		font-size: 1rem;
+		a {
+			display: inline-block;
+			padding: 0.8125rem 1rem;
+			text-decoration: none;
+      @include color-main;
+      transition: color .3s ease, opacity .3s ease;
+			&:hover {
+        opacity: 0.7;
+			}
+		}
+	}
+	#nav-check {
+		display: none;
+	}
+}

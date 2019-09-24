@@ -1,0 +1,23 @@
+section {
+	padding: 0.625rem;
+	padding-bottom: 2.5rem;
+	margin-top: 5rem;
+	.img-profile-cont {
+		overflow: hidden;
+		width: 7.8125rem;
+		height: 7.8125rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 0.125rem solid #777570;
+	}
+	.cards-fix {
+		margin-top: 3.875rem;
+		.image-float {
+			margin-top: -5.8125rem;
+		}
+	}
+	.prueba {
+		color: white;
+	}
+}
